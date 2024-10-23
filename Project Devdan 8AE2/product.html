@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="styleproduct.css">
+</head>
+<body>
+    <div class="container">
+        <div class="product">
+            <div class="gallery">
+                <img src="images product page/image1.png" alt="Product 1" id="productImg">
+                <div class="controls">
+                    <span class="btn active"></span>
+                    <span class="btn "></span>
+                    <span class="btn "></span>
+                </div>
+            </div>
+            <div class="details">
+                <h1>Casual T-Shirt</h1>
+                <h2>Rp. 150.000</h2>
+                <h3>Diskon 99%</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, eaque, recusandae aliquam, necessitatibus blanditiis voluptates modi numquam esse cumque provident dicta aspernatur veritatis? Sit quis quas atque architecto officiis? Alias?</p>
+                <form>
+                    <div class="size-select">
+                        <p>Size</p>
+                        <label for="small">
+                            <input type="radio" name="size" id="small">
+                            <span>S</span>
+                        </label>
+                        <label for="medium">
+                            <input type="radio" name="size" id="medium">
+                            <span>M</span>
+                        </label>
+                        <label for="large">
+                            <input type="radio" name="size" id="large">
+                            <span>L</span>
+                        </label>
+                        <label for="extra-large">
+                            <input type="radio" name="size" id="extra-large">
+                            <span>XL</span>
+                        </label>
+                    </div>
+
+                    <div class="color">
+                        <p>Color</p>
+                        <label for="red">
+                            <input type="radio" name="color" id="red" data-image="t-shirt-merah-polos-pada-latar-belakang-putih-gm178527852-22804320.png">
+                            <span class="color-1"></span>
+                        </label>
+                        <label for="green">
+                            <input type="radio" name="color" id="green" data-image="images.png">
+                            <span class="color-2"></span>
+                        </label>
+                        <label for="blue">
+                            <input type="radio" name="color" id="blue" data-image="images-_1_.png">
+                            <span class="color-3"></span>
+                        </label>
+                    </div>
+
+                    <div class="quantity">
+                        <p>Quantity</p>
+                        <input type="number" value="1" min="1" id="quantityinput">
+                        <p id="stockinfo"></p>
+                    </div>
+                    <a href="#"></a><button type="button" id="buybutton">Buy Now</button></a>   
+                </form>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="scriptproduct.js"></script>
+</body>
+</html>
